@@ -1,11 +1,13 @@
 {
-  "name": "afk-bot",
+  "name": "minecraft-afk-bot",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Mineflayer bot to keep TickHosting server awake",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "dependencies": {
+    "express": "^4.19.2",
     "mineflayer": "^4.20.1"
   }
 }
